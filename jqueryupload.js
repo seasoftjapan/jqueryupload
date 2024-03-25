@@ -73,7 +73,7 @@
 			e.attr('type', 'hidden');
 			e.attr('name', param.name);
 			e.attr('value', param.value);
-			return e;
+			return e.get(0);
 		});
 	}
 
